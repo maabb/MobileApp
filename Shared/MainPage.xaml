@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MobileAppHW.MainPage">
+
+    <Grid >
+
+        <Image Source="SD.jfif" Aspect="AspectFill" />
+        <StackLayout Orientation="Vertical" Padding="25"  VerticalOptions="CenterAndExpand" Spacing="40" >
+
+            
+            <Image Source="MZy.png" VerticalOptions="Start" HorizontalOptions="Start" WidthRequest="120" HeightRequest="120"  />
+                <StackLayout  VerticalOptions="Center">
+                <Label Text="WELCOME IN OUR SPORT" HorizontalOptions="Center" VerticalOptions="Center" FontSize="35" TextColor="White" />
+                <Label Text="WORLD"   HorizontalOptions="Center" VerticalOptions="Center" FontSize="35" TextColor="White"/>
+            </StackLayout>
+
+            <StackLayout  >
+                <Label Text="Are You Ready For Healthy Life" HorizontalOptions="Center" VerticalOptions="Center" FontSize="25" TextColor="White">
+                </Label>
+            </StackLayout>
+
+            <StackLayout Orientation="Vertical" HorizontalOptions="Center" VerticalOptions="Center" Spacing="10" >
+                <Label Text="Hold your breath " HorizontalOptions="Center" VerticalOptions="Center" FontSize="25" TextColor="White"></Label>
+                <Label Text="AND"  HorizontalOptions="Center"  VerticalOptions="Center" FontSize="25" TextColor="White"></Label>
+                <Image Source="start7.jfif" x:Name="lgbtn" HeightRequest="80" WidthRequest="80"  >
+                    <Image.GestureRecognizers>
+                        <TapGestureRecognizer
+                Tapped="TapGestureRecognizer_Tapped_1"/>
+                    </Image.GestureRecognizers>
+                </Image>
+            </StackLayout>
+
+
+        </StackLayout>
+
+    </Grid>
+    
+</ContentPage>
