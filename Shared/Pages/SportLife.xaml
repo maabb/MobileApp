@@ -88,7 +88,7 @@ Pilates; flexibility, strength and endurance to the body, legs, abdomen, arms an
                 VerticalOptions="Start" 
                 HorizontalOptions="Start" />
                     <Label Text="Call us on :55-786443"/>
-                    <Label Text="OR visit our website: www.SportWorld.com "/>
+                    <Label Text="OR visit our website: www.MZy.com "/>
                     <Button x:Name="btn" Text="Call"  VerticalOptions="Start" HorizontalOptions="Start" />
                    
                 </StackLayout>
