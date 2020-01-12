@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MobileAppHW.Pages.SportLife"
+             Title="Sport Life">
+    <ContentPage.Content>
+        
+            <StackLayout VerticalOptions="Center" Padding="10">
+            <ScrollView>
+                <StackLayout Padding="10" Spacing="20">
+
+
+                    
+                            <Label Text="Start your healthy life with us" FontSize="25"/>
+                        <Label FontSize="20" Text="The sport's hall is equipped with advanced equipments for professional training ; Furthermore our club contains professional trainers in regular courses.  . To start an active, healthy and sporting life immediately, all you have to do is be determined and start your desired sport and activity in this gym."/>
+
+                    
+
+                    <Label Text="let's Discover our ACTIVITIES in the club " FontSize="20"/>
+                   
+                    
+                   
+                    
+                    <Label Text="AEROBIC" FontSize="Header"/>
+                    
+                    <Image Source="aerobic.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <Label FontSize="20" Text="Aerobic exercises are the sports that make the body's oxygen carrying system more powerful by performing the exercise which requires a large amount of oxygen consumption for a certain period of time without stopping. You can think of aerobic exercises as low intensity exercises that you can do for a long time."
+                />
+                    <Label FontSize="20" Text="You can practise these exercises 4-5 days a week for 30-40 minutes with us." />
+
+                   
+                    
+                    
+                    <Label Text="FITNESS" FontSize="Header"/>
+                    <Image Source="fitness.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <Label  FontSize="20" Text="Fitness, which means physical fitness or fitness, is a type of sport that includes exercises to maintain a healthy life and keep the body fit. Fitness exercises, which are often confused with bodybuilding workouts, include muscle-building workouts. However, the main purpose ofbodybuilding training is to increase muscle volume and mass. Bodybuilding aims to increase the muscles of the athletes and to have a larger and larger body. "
+                />
+
+
+                    <Label Text="TRX" FontSize="Header"/>
+                    <Image Source="trx.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <Image Source="trx1.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <Label FontSize="20">
+                        <Label.Text>
+                         TRX Suspension Trainer allows you to use your body weight as resistance and provides hundreds of exercises. You can easily adjust resistance and intensity by changing your body position.
+     Suspension Trainer:
+• Provides fast, practical and efficient total-body training
+• Helps to develop a solid core structure
+• Increases muscle endurance
+• Suitable for users of all levels, from professional athletes to beginners
+• Easy to carry and can be used anywhere (gym, home, hotel or outdoor)
+                        </Label.Text>
+                    </Label>
+
+                    <Image Source="trx3.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+
+
+                    <Label Text="PILATES" FontSize="Header"/>
+                    <Image Source="pilates.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                    <Label  FontSize="20" Text="Pilates; It is a set of exercises and physical health system developed by Joseph Pilates at the beginning of the 20th century to strengthen muscles, increase flexibility and general wellbeing.
+
+Joseph Pilates called his method Contrology. Because he believes his method uses the mind to control muscles.
+
+Pilates; flexibility, strength and endurance to the body, legs, abdomen, arms and back gives coordination.
+
+ "
+                />
+
+
+
+                    <Label Text="YOGA" FontSize="Header"/>
+                    <Image Source="yoga.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+                    <Image Source="yoga1.png" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                    <Label   FontSize="20" Text="Yoga is a form of exercise that focuses on breathing to improve physical and mental well-being. It includes a range of movements, breathing exercises and meditation designed to reduce stress, stay healthy, increase strength and flexibility. Its purpose is to provide awareness and harmony in the mind and body. An ancient tradition of yoga practice provides many mental and physical benefits. Strengthens the muscles, supports the respiratory system and heart health, helps in the treatment of addiction, reduces stress, anxiety, depression and chronic pain, improves sleep patterns, improves quality of life. In many countries, yoga is practiced in various ways and is considered as a complementary and alternative medicine in the West as a holistic approach.
+ "
+                />
+
+
+                    <Button x:Name="lgbtn1" Text="Let's go to Diet part" BackgroundColor="Black" TextColor="White" />
+                    <Button x:Name="lgbtn2" Text="Equipments" BackgroundColor="Black" TextColor="White" />
+                    <Label Text="For Contact us:"
+                VerticalOptions="Start" 
+                HorizontalOptions="Start" />
+                    <Label Text="Call us on :55-786443"/>
+                    <Label Text="OR visit our website: www.SportWorld.com "/>
+                    <Button x:Name="btn" Text="Call"  VerticalOptions="Start" HorizontalOptions="Start" />
+                   
+                </StackLayout>
+            </ScrollView>
+           
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

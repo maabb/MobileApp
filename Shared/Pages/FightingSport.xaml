@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MobileAppHW.Pages.FightingSport"
+             Title="Fighting Sport">
+    
+    <ContentPage.Content>
+        
+        <ScrollView>
+            
+                <StackLayout  Spacing="20" Padding="30">
+
+
+
+                    <Label Text="let's Discover our FIGHTING SPORT in the club " FontSize="40"/>
+
+
+                    <StackLayout >
+                        <Label Text="Fighting sport, encompass a wide range of activities, including fighting  techniques, physical exercises   and mind-discipline methods, along with other skills. Fighting arts originate from the ancient cultures of Asia and are used in personal defense, exercise, health, spiritual development, legal sanction and athletic competitions all over the world today. Fighting sports are generally classified as being soft or hard, internal or external, yin and yang, but all must adopt these complementary aspects. " FontSize="20"/>
+
+                        <Label Text="KARATE" FontSize="Header"/>
+
+                        <Image Source="karate.jpg" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                        <Image Source="karate1.jpg" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                        <Label Text="Karate means 'empty hand'. This form of warfare originated on Japan's island of Okinawa. Karate is now general a general term for all groups of Japanese martial arts. Karate handles offensive and defensive movements and avoids grappling and wrestling. Students are taught to strike fast and powerful blows almost anywhere in the body, including dangerous kicks with the legs. Karate also consists of hard and soft styles. Some schools teach 'full contact' karate, where their students use protective equipment to soften the blows of real combat. " FontSize="20"/>
+
+                    </StackLayout>
+
+                    <StackLayout >
+                        <Label Text="KUNG FU" FontSize="80"/>
+
+                        <Image Source="kungfu.jpg" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                        <Image Source="kungfu1.jpg" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                        <Label Text="Kung fu means 'skill' in Chinese, and is a generic term used for the entire spectrum of martial art methods that developed in China. In China, kung fu is called wushu. Kung fu consists of thousands of hard and soft techniques taught  for both attack and defensive positions." FontSize="20"
+                    />
+
+                        <Label  Text="Kung fu consists of punching, kicking, grappling and blocking movements, as well as the use of certain weapons. 
+                    Kung fu can also emphasize internal methods for increasing and improving Qi (Chi) energy." FontSize="20"/>
+
+                    </StackLayout>
+
+
+
+
+                    <StackLayout >
+                        <Label Text="AIKIDO" FontSize="Header"/>
+
+                        <Image Source="aikido.jpg" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                        <Label FontSize="20" Text="Aikido is a new martial art by comparison, developed in the 1930s by a Japanese teacher named Morihei Ueshiba (1883-1969). Ueshiba was a religious man who wanted to invent a martial art that emphasized not being aggressive. In Japanese, aikido means 'to connect with the energy of life'. Aikido teaches its students various techniques such as blocking, escaping, grabbing, safely falling to the ground to neutralize the attacker. Aikido also teaches internal methods of magnifying Qi energy. Aikido is also called the ' path of peace ' because it teaches the philosophical ideals of love and harmony as ways of reducing conflict."
+                    />
+
+                    </StackLayout>
+
+
+
+                    <StackLayout >
+                        <Label Text="JUDO" FontSize="Header"/>
+
+                        <Image Source="judo.jpg" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                        <Label Text="Judo means 'gentle path' in Japanese, and was developed as an educational path by a teacher named Jigoro Kano in the 1800s. Judo emphasizes defensive movements such as holding and grabbing, and teaches its students how to neutralize the attacker by applying pressure to certain sensitive areas in the body. Judo is performed in matches in various competitions." FontSize="20"
+                    />
+
+                        <Label Text="JUJITSU" FontSize="Header"/>
+
+                        <Image Source="jujitsu.jpg" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                        <Label Text="Jujitsu is a Japanese fighting art that focuses on flexibility, agility, and fluidity of movement. It consists of kicking, punching, holding and pounding movements along with the use of weapons.Tae kwon do is a Korean martial art, meaning ' kick-punch-art'. Tae kwon do consists of a wide variety of powerful kicking and punching techniques. Kendo is traditional Japanese sword fighting that shows students ways to use a variety of weapons nimbly, quickly and effectively. Kendo also focuses on discipline and morality." FontSize="20"
+                      />
+                    </StackLayout>
+                </StackLayout>
+           
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

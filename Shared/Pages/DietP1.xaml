@@ -1,0 +1,215 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="MobileAppHW.Pages.DietP1">
+   
+        
+    <ContentPage.Content>
+       
+        <ScrollView>
+            <StackLayout Padding="30">
+                <Label Text="Here are some ways to lead a healthier life:" FontSize="40"/>
+
+                <Label FontSize="20">
+                    <Label.Text>
+
+                        • Daily physical activity should be increased. Adults are advised to walk for at least half an hour each day. Adolescents are required to engage in outdoor activities for at least 60 minutes each day.
+• Nutrients should be consumed in snacks as well as three main meals. Morning breakfast must be done, meals should not be skipped.
+• Reduce the amount of oil consumed. Fried foods should not be consumed. Boiling, grilling, steaming and oven cooking methods should be preferred in cooking.
+• Select foods with low sugar content; The use of refined sugar and consumption of sugary nutrients should be reduced.
+• Salt consumption should be reduced and iodized salt should be used. Brine foods should be avoided.
+• Consumption of fresh fruits and vegetables should be increased and care should be taken to consume thoroughly cleaned products.
+• The habit of drinking milk must be achieved. Care should be taken to consume calcium-rich milk, cheese and yogurt for bone health.
+• At least 8-10 glasses of water should be consumed per day.
+• Body weight should be kept at the recommended level.
+• Fast food consumption should be reduced.
+• Alcohol and cigarettes should not be used." />
+
+                    </Label.Text>
+                </Label>
+                <Image Source="beslenme.jpg" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                <Label Text=" SAMPLE DIET LISTS" FontSize="30"/>
+
+                <Label Text="DIET LIST 1" FontSize="25"/>
+
+
+
+
+                <Label FontSize="20">
+                    <Label.Text>
+                        Breakfast:
+
+•	Tomatoes, cucumbers, peppers, parsley, arugula, mint as you wish
+•	2 good boiled eggs
+•	5 full walnuts
+•	Pulp, cumin, black pepper as you wish
+•	Note: You will not eat bread.
+                    </Label.Text>
+                </Label>
+
+                <Label FontSize="20">
+                    <Label.Text>
+                        Lunch:
+
+•	1 bowl of lentil soup (not greasy)
+•	1 large bowl of cucumber, pepper, purslane salad with tomatoes
+•	1 bowl of yogurt and 1 teaspoon of powdered turmeric mix and eat.
+•	As much as you like parsley, arugula, mint, dill
+                    </Label.Text>
+                </Label>
+
+                <Label FontSize="20">
+                    <Label.Text>
+
+                        Afternoon:
+
+•	3 tablespoons curd cheese
+•	5 whole walnuts (instead of bread)
+                    </Label.Text>
+                </Label>
+
+                <Label FontSize="20">
+                    <Label.Text>
+                        Dinner:
+
+•	2 thin slices of watermelon (1 peach, seasonal fruit like apple)
+•	4 tablespoons curd cheese (should be low fat and salty)
+•	5 whole walnuts (you eat bread instead)
+•	1 bowl of purslane salad with plenty of tomatoes and cucumbers
+"
+                    </Label.Text>
+                </Label>
+
+
+
+
+
+                <Label Text="DIET LIST 2" FontSize="25"/>
+
+                <Label FontSize="20">
+                    <Label.Text>
+                        Breakfast:
+
+•	Skim milk (1 glass)
+•	Boiled eggs (1 piece)
+•	Feta cheese (1 slice)
+•	Rye bread (2 slices)
+                    </Label.Text>
+                </Label>
+
+
+                <Label FontSize="20">
+                    <Label.Text>
+                        Mid-morning:
+
+•	Fruit (1 serving)
+                    </Label.Text>
+                </Label>
+
+                <Label FontSize="20">
+                    <Label.Text>
+                        Lunch:
+
+•	Cabbage Soup (You can consume vegetable soups you will prepare on different days)
+•	Salad in a bowl
+•	Homemade fruity yogurt
+                    </Label.Text>
+                </Label>
+
+                <Label FontSize="20">
+                    <Label.Text>
+                        Afternoon:
+
+•	Dietary biscuits (4 pieces)
+                    </Label.Text>
+                </Label>
+
+
+                <Label FontSize="20">
+                    <Label.Text>
+
+                        Dinner:
+
+•	Boiled chicken (80 grams)
+•	Yogurt (1 bowl)
+•	Salad in a bowl
+                    </Label.Text>
+                </Label>
+
+                <Label FontSize="20">
+                    <Label.Text>
+                        Night:
+
+•	Fruit (1 serving)
+
+
+                    </Label.Text>
+                </Label>
+
+                <Image Source="beslenme1.jpg" VerticalOptions="Center" HorizontalOptions="Center"/>
+
+                <Label Text="DIET LIST 3" FontSize="25"/>
+
+                <Label FontSize="20">
+                    <Label.Text>
+                        Breakfast:
+
+•	1 slice of white cheese
+•	1 boiled or fried egg
+•	4 olives + Tomato - Cucumber
+•	1-2 slices of gluten-free bread
+                    </Label.Text>
+                </Label>
+
+                <Label FontSize="20">
+                    <Label.Text>
+                        Mid-morning:
+
+•	1 serving of fresh fruit + herbal tea
+                    </Label.Text>
+                </Label>
+
+                <Label FontSize="20">
+                    <Label.Text>
+                        Lunch:
+
+      •	100-120 g Grilled meat / chicken or 1 portion of legumes meal
+•	1 glass of buttermilk
+•	Seasonal salad
+•	3 spoons of rice pilaf or 1 slice of gluten-free bread (25 g)
+                    </Label.Text>
+                </Label>
+
+                <Label FontSize="20">
+                    <Label.Text>
+                        Afternoon:
+
+•	1 serving of fresh fruit + 2 walnuts
+                    </Label.Text>
+                </Label>
+                <Label FontSize="20">
+                    <Label.Text>
+                        Dinner:
+
+•	1 portion of vegetable dish
+•	1 bowl of yogurt
+•	1-2 slices of gluten-free bread
+                    </Label.Text>
+                </Label>
+                <Label FontSize="20">
+                    <Label.Text>
+                        Night:
+
+•	1 glass of milk + 5-6 pieces of raw almonds
+
+
+                    </Label.Text>
+                </Label>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>
